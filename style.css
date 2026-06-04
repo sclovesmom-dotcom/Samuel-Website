@@ -1,0 +1,44 @@
+/* Optional: Quick reset to remove default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Navbar Container */
+.navbar {
+  background-color: #1a1a1a; /* Dark sleek background */
+  padding: 0.8rem 2rem;
+  position: sticky;          /* Keeps navbar at the top while scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Unordered List styling */
+.navbar ul {
+  list-style-type: none;     /* Removes bullet points */
+  display: flex;             /* Aligns items horizontally */
+  justify-content: flex-end; /* Pushes links to the right (change to 'center' or 'flex-start' as desired) */
+  align-items: center;
+  gap: 2rem;                 /* Adds equal spacing between the links */
+}
+
+/* Navigation Links */
+.navbar a {
+  color: #ffffff;            /* White text color */
+  text-decoration: none;     /* Removes the default underline */
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase; /* Makes text all caps for a clean look */
+  letter-spacing: 1px;
+  transition: color 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+/* Hover State */
+.navbar a:hover {
+  color: #4caf50;            /* Changes link color to green on hover */
+}
+body {
+  background-color: #bae6fd; /* Radiator Springs Sky Blue */
+}
